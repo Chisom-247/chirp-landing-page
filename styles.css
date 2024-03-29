@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
-}
 .general{
     width: 100%;
     height: fit-content;
@@ -76,22 +73,23 @@ header button{
 
 }
 .hamburger{
-    display: none;
+    display: none;                              
 }
 main{
     width: 80%;
-    height: 150vh;
+    height: 100vh;
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
 }
 .main-content{
     width: 60%;
-    height: 140vh;
+    height: 100vh;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 40px;
 }
 .main-content h1{
     font-weight: bolder;
@@ -193,7 +191,7 @@ main{
 }
 .aside-content{
     width: 40%;
-    height: 140vh;
+    height: fit-content;
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -820,22 +818,8 @@ footer{
         display: block;
         height: 75vh;
     }
-    .head-1{
-        height: 100%;
-        width: fit-content;
-    }
+
     .twitter-1{
-        height: 35%;
-        width: fit-content;
-    }
-    .feedback-2{
-        display: block;
-        height: 85vh;
-    }
-    .head-2{
-        height: 80%;
-    }
-    .twitter-2{
         height: 35%;
         width: fit-content;
     }
@@ -846,9 +830,6 @@ footer{
     .twitter-3{
         height: 35%;
         width: fit-content;
-    }
-    .head-3{
-        height: 90%;
     }
     .button{
         width: 100%;
